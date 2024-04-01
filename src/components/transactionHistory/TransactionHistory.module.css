@@ -1,0 +1,18 @@
+.transaction-history {
+  margin: 0 auto 50px;
+  width: 500px;
+  -webkit-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.thead {
+  background-color: aquamarine;
+  padding: 5px;
+}
+
+.tbody {
+  background-color: #e7ddb9;
+  text-align: center;
+  text-transform: capitalize;
+}
