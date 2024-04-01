@@ -9,10 +9,18 @@
 .thead {
   background-color: aquamarine;
   padding: 5px;
+  font-size: 25px;
+}
+
+.label {
+  width: 100px;
 }
 
 .tbody {
-  background-color: #e7ddb9;
   text-align: center;
   text-transform: capitalize;
+}
+
+.item:nth-child(even) {
+  background-color: #e7ddb9;
 }

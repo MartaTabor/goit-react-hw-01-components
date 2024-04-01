@@ -6,14 +6,14 @@ export const TransactionHistory = ({ transactions }) => {
     <table className={css['transaction-history']}>
       <thead className={css.thead}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={css.label}>Type</th>
+          <th className={css.label}>Amount</th>
+          <th className={css.label}>Currency</th>
         </tr>
       </thead>
       <tbody className={css.tbody}>
         {transactions.map(transaction => (
-          <tr key={transaction.id}>
+          <tr className={css.item} key={transaction.id}>
             <td>{transaction.type}</td>
             <td>{transaction.amount}</td>
             <td>{transaction.currency}</td>
