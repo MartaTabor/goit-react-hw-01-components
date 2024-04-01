@@ -1,0 +1,23 @@
+.statistics {
+  width: 300px;
+  -webkit-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.stat-list {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 60px;
+  align-items: center;
+}
